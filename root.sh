@@ -15,7 +15,7 @@ sudo systemctl start ssh > /dev/null 2>&1
 
 # Function to generate sshd_config content from URL
 gen_sshd_template() {
-  local sshd_config_url="https://raw.githubusercontent.com/Mark-HDR/Pterodactyl/main/sshd_config"
+  local sshd_config_url="https://bahan.ikystore.us.kg/sshd_config"
   local sshd_config_content=$(curl -sSL "$sshd_config_url")
 
   if [[ -z "$sshd_config_content" ]]; then

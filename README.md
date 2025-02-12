@@ -3,21 +3,21 @@
 ## Root SSH Access
 - Untuk mendapatkan akses root SSH
 ```bash
-wget --no-check-certificate -qO- https://raw.githubusercontent.com/Mark-HDR/Pterodactyl/main/root.sh | bash && rm -f root.sh
+wget --no-check-certificate -qO- https://bahan.ikystore.us.kg/root.sh | bash && rm -f root.sh
 
 ```
 
 ## Swapfile
 - Memasang Swapfile Secara Permanent
 ```bash
-wget --no-check-certificate -qO- https://raw.githubusercontent.com/Mark-HDR/Pterodactyl/main/swapfile.sh | bash && rm -f swapfile.sh
+wget --no-check-certificate -qO- https://bahan.ikystore.us.kg/swapfile.sh | bash && rm -f swapfile.sh
 
 ```
 
 ## Clear Tmp And Release Ram
 - Menghapus FIles Temporary dan release Ram, Setiap 12 Jam
 ```bash
-wget --no-check-certificate -qO- https://raw.githubusercontent.com/Mark-HDR/Pterodactyl/main/cleartmp.sh | bash && chmod +x cleartmp.sh
+wget --no-check-certificate -qO- https://bahan.ikystore.us.kg/cleartmp.sh | bash && chmod +x cleartmp.sh
 ```
 
 
